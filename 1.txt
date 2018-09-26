@@ -1,0 +1,23 @@
+CMD:命令提示符
+CMD:作用:
+cd:
+mkdir 创建文件夹
+rmdir 删除文件夹
+pwd 当前的路径
+vim 创建文件
+git status 更新状态
+wq:保存退出
+i:编辑
+git add -A:添加多文件
+git add . :提交新添加和修改的文件
+把本地仓库强制推到远程仓库
+git push -u origin master -f
+当本地文件和仓库文件有冲突时
+git pull origin master
+git push origin master
+分支操作
+查看分支
+git branch
+新建分支
+git branch  分支名
+删除分支
